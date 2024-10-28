@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+.logo {
+    width: 150px;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+nav a {
+    color: #808080;
+    text-decoration: none;
+}
+.lang {
+    display: flex;
+    gap: 10px;
+}
+.lang button {
+    background-color: #808080;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}

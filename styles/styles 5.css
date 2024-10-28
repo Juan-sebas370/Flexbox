@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+main {
+    display: flex;
+}
+article {
+    background-color: #e0e0e0;
+    padding: 20px;
+    height: 445px;
+    flex: 25vh
+}
+section {
+    background-color: #808080;
+    padding: 20px;
+    flex: 50vh;
+}
+aside {
+    background-color: #e0e0e0;
+    padding: 20px;
+    flex: 25vh;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
